@@ -13,7 +13,7 @@ function getPagamenti() {
 
       for (var pagamento of data) {
         console.log(pagamento);
-        target.append('<li>' + pagamento.status + ' - ' + pagamento.price + '</li>');
+        target.append('<li>' + pagamento + '</li>');
       }
     },
     error: function(err) {
